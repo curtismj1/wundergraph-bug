@@ -7,21 +7,8 @@ export interface HelloResponse {
 	errors?: ReadonlyArray<GraphQLError>;
 }
 
-export interface findCardsResponse {
-	data?: findCardsResponseData;
-	errors?: ReadonlyArray<GraphQLError>;
-}
-
 export interface HelloResponseData {
 	gql_hello?: string;
-}
-
-export interface findCardsResponseData {
-	db_findManycard: {
-		id: number;
-		description: string;
-		iconUrl: string;
-	}[];
 }
 
 export type JSONValue = string | number | boolean | JSONObject | Array<JSONValue>;
