@@ -1,0 +1,7 @@
+{
+  db_findManycard {
+    id         
+    description 
+    iconUrl   
+  }
+}
